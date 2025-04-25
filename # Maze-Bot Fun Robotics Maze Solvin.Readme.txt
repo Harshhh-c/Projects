@@ -1,0 +1,106 @@
+# Maze-Bot: Fun Robotics Maze Solving Robot
+
+## 1. Type of Robot
+
+Fun Robotics Maze Solving Robot
+
+---
+
+## 2. Robot Assembly Design
+
+![Maze Bot Assembly](https://cdn.mathpix.com/cropped/2025_04_25_d888d93250f764f656c2g-1.jpg?height=1073&width=1461&top_left_y=613&top_left_x=369)
+
+---
+
+## 3. Components to be Used
+
+### I. Structure Components
+
+| Component         | Specification |
+|-------------------|--------------|
+| Acrylic sheet     | 6 mm         |
+| RC rubber wheels  | 25 mm        |
+| Castor wheel      | —            |
+| Clamps            | —            |
+
+### II. Electronics Components
+
+| Component              | Specification                                  |
+|------------------------|------------------------------------------------|
+| Metal Geared Motor     | TT N20 12V                                     |
+| Switch                 | —                                              |
+| Microcontroller        | Teensy 4.1                                     |
+| Motor Driver           | TB6612FNG                                      |
+| Ultrasonic Sensor      | DFRobot Gravity URM09 Analog Ultrasonic Sensor |
+| LiPo Battery           | 11.1 V 1000 mAh                                |
+
+---
+
+## 4. Methodology of Making Robot
+
+![Methodology Diagram](https://cdn.mathpix.com/cropped/2025_04_25_d888d93250f764f656c2g-2.jpg?height=394&width=1443&top_left_y=1288&top_left_x=428)
+
+- **Design Chassis:** Design considering size, weight, and material for stability and mounting.
+- **Attach Wheels:** Securely attach and align wheels for smooth movement.
+- **Connect Motors to Wheels:** Ensure motors are properly aligned and attached.
+- **Connect Motors to Motor Driver:** Wire motors to the motor driver for speed and direction control.
+- **Connect Motor Driver to Teensy:** Connect motor driver to Teensy 4.1 microcontroller with secure wiring.
+- **Connect Ultrasonic Sensors to Teensy:** Wire and position sensors for accurate obstacle detection.
+- **Upload Code:** Develop and upload navigation code using Arduino IDE.
+- **Test the Bot:** Test in a controlled environment for obstacle detection and autonomous navigation.
+
+---
+
+## 5. Applications
+
+- **Search and Rescue:** Navigate rubble and debris in disaster zones to locate survivors or assess damage.
+- **Security and Surveillance:** Patrol predefined routes in large facilities or outdoor areas, detecting intruders or anomalies.
+- **Education and Entertainment:** Teach robotics and programming in STEM education, or use in exhibitions and amusement parks.
+
+---
+
+## 6. Size of Robot (Proof of Concept - Small Version)
+
+- **Length:** 15 cm
+- **Width:** 15 cm
+- **Height:** 15 cm
+
+---
+
+## 7. Size of Robot (Prototype - Actual Version)
+
+- **Length:** 13 cm
+- **Width:** 13 cm
+- **Height:** 13 cm
+
+---
+
+## 8. Timeline for Robot Making with Milestones
+
+### July–August: Component Acquisition and Assembly
+
+- Week 1–2: Purchase required components.
+- Week 3–4: Assemble chassis, mount motors, wheels, sensors, and microcontroller.
+- Week 5–6: Test basic functionality and troubleshoot assembly issues.
+
+### September: Programming and Testing
+
+- Week 1–2: Begin programming navigation algorithms.
+- Week 3–4: Integrate sensor inputs and motor controls, focus on obstacle detection and maze-solving.
+- Week 5–6: Test in complex maze layouts, refine code and behavior.
+
+### October: Optimization and Refinement
+
+- Week 1–2: Analyze test results for improvements.
+- Week 3–4: Optimize algorithms, calibrate sensors, adjust motor controls.
+- Week 5–6: Comprehensive testing in diverse maze configurations.
+
+### November: Final Testing and Documentation
+
+- Final testing in various maze scenarios to verify functionality and reliability.
+
+---
+
+## 9. Proposed Outline (Photography)
+
+![Maze Bot Outline](https://cdn.mathpix.com/cropped/2025_04_25_d888d93250f764f656c2g-4.jpg?height=617&width=1751&top_left_y=1990&top_left_x=250)
